@@ -74,4 +74,11 @@ class Solution2 {
             visited[i]--;
         }
     }
+
+    public static void main(String[] args) {
+        Solution2 s = new Solution2();
+        int[] picks = {1, 3, 2};
+        String[] minerals = {"diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"};
+        System.out.println(s.solution(picks, minerals));
+    }
 }
